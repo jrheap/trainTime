@@ -59,9 +59,9 @@ database.ref().on("child_added", function(snapshot) {
 
 
   var newRow = $("<tr>")
-  newRow.append("<td>" + snapshot.val().train + "</td>" + "<td>" + snapshot.val().Destination + "</td>" +
+  newRow.prepend("<td>" + snapshot.val().train + "</td>" + "<td>" + snapshot.val().Destination + "</td>" +
   "<td>" + snapshot.val().First_train_time + "</td>" + "<td>" + "" + "</td>" + "<td>" + snapshot.val().Frequency + "</td>" +
   "<td>" + "" + "</td>");
 
-  $("tbody").append(newRow);
+  $("tbody").prepend(newRow);
 });
