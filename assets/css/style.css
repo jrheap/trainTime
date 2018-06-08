@@ -1,0 +1,18 @@
+body{
+    background-image: url("..//img/jake-sloop-398895-unsplash.jpg");
+    background-size: 100%;
+    color: black;  
+ }
+ .card-header{
+     font-size: 33px;
+ }
+
+ #jumbo{
+     font-family: font-family, 'Indie Flower', cursive;
+     font-size: 110px;
+     padding-bottom: 70px;
+     padding-top: 25px;
+     font-weight: 100;
+ }
+
+ 
